@@ -7,7 +7,7 @@
 
 .cartItem-image {
   width: 350px;
-  object-fit: contain;
+  height:350px;
   border-radius: 10px;
 }
 
