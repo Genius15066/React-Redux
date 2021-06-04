@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .2rem;
+  background:teal;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar-logo {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(251, 251, 239);
+  font-family: 'Lobster', cursive;
+  margin-left:40px;
+}
+
+.navbar-cart {
+  width: 180px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.navbar-cart:hover {
+  opacity: 0.75;
+}
+
+.cart-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(243, 246, 59);
+  
+}
+
+.cart-image {
+  width: 20px;
+  height: 30px;
+}
+
+.cart-counter {
+  height: 25px;
+  width: 25px;
+  border: 2px solid rgb(0, 255, 13);
+  border-radius: 50%;
+  color: rgb(201, 21, 96);
+  background:white ;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold
+}
