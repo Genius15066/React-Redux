@@ -5,8 +5,8 @@
 }
 
 .singleItem-image {
-  width: 600px;
-  object-fit: contain;
+  width: 400px;
+  height:400px;
   margin-right: 1rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 10px;
@@ -31,7 +31,7 @@
 }
 
 .details-addBtn {
-  width: 45%;
+  
   padding: 10px 17px;
   background: rgb(0, 255, 106);
   color: rgb(13, 39, 112);
